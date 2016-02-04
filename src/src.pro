@@ -42,7 +42,7 @@ HEADERS += mainwindow.h \
 
 unix:!macx {
     LIBS += -lasound
-    DEFINES += __LINUX_ALSASEQ__ 
+    DEFINES += __LINUX_ALSA__ 
 }
 win32 {
     LIBS += -lwinmm
